@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "moonclient",
+  "version": "${version}",
+  "name": "Moon Client",
+  "description": "A lightweight Feather-style Fabric utility client with HUD, quality-of-life features and a custom menu.",
+  "authors": ["Moon Client"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.moonclient.MoonClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": ">=0.141.1"
+  }
+}
